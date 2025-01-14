@@ -18,12 +18,12 @@ export default function MainHeader() {
           <ul className="flex gap-6 text-lg text-white">
             <li>
               <NavLink href="/projets" >
-                Projets
+                Mes projets
               </NavLink>
             </li>
             <li>
               <NavLink href="/about">
-                A propos
+                A propos de moi
               </NavLink>
             </li>
           </ul>
