@@ -4,7 +4,7 @@ export default function MainHeaderBackground() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
           <defs>
             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style={{ stopColor: "#05a3ff", stopOpacity: "1" }} />
+              <stop offset="0%" style={{ stopColor: "#3a4e8f", stopOpacity: "1" }} />
               <stop offset="100%" style={{ stopColor: "#3155cb", stopOpacity: "1" }} />
             </linearGradient>
           </defs>
