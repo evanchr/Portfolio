@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface ProjetCardProps {
@@ -10,7 +11,7 @@ interface ProjetCardProps {
 export default function ProjetCard ({ name, image, description, link }: ProjetCardProps) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-blue-400">
-      <img className="w-full h-48 object-cover" src={image} alt={name} />
+      <Image className="w-full h-48 object-cover" src={image} alt={name} />
       <div className="px-6 py-4">
         <h2 className="font-semibold text-xl text-center mb-2">{name}</h2>
         <p className="text-gray-900 text-base mb-4">{description}</p>
